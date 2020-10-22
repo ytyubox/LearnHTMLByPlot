@@ -4,7 +4,8 @@ let html = HTML(
     .body(
         .h1("My first Heading"),
         .p("My first paragragh."),
-        .p("This is a ", .br(), "paragragh with a line break.")
+        .p("This is a ", .br(), "paragragh with a line break."),
+        .button(.onclick(""), "")
     )
 )
 print(html.render(indentedBy: .spaces(4)))
